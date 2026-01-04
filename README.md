@@ -1,29 +1,25 @@
-# Project Title
+## Project
+Advent Of Cyber Day 6 (Malware Analysis - Egg-xecutable)
 
 ## Author
 MUHAMMAD DANIEL FIRDAUS (52215225183)
 
-## Description
-This project focuses on [describe your project briefly].
+## Question 1
+What is the SHA256Sum of the HopHelper.exe?
 
-## Objectives
-- Objective 1
-- Objective 2
-- Objective 3
+- F29C270068F865EF4A747E2683BFA07667BF64E768B38FBB9A2750A3D879CA33
+  
+## Question 2
+Within the strings of HopHelper.exe, a flag with the format THM{XXXXX} exists. What is that flag value?
 
-## Tools & Technologies
-- Tool 1
-- Tool 2
-- Tool 3
+- THM{STRINGS_FOUND}
 
-## Methodology
-1. Step one
-2. Step two
-3. Step three
+## Question 3
+What registry value has the HopHelper.exe modified for persistence?
 
-## Results
-- Result 1
-- Result 2
+- HKU\S-1-5-21-1966530601-3185510712-10604624-1008\Software\Microsoft\Windows\CurrentVersion\Run\HopHelper
 
-## Conclusion
-Short conclusion here.
+## Question 4
+Filter the output of ProcMon for "TCP" operations. What network protocol is HopHelper.exe using to communicate?
+
+- http
